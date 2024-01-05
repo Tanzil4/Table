@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<style>
+    td {
+        border: 1px solid black;
+        margin: 0;
+        padding: 0;
+    }
+
+    th {
+        border: 1px solid black;
+        margin: 0;
+        padding: 0;
+    }
+
+    table {
+        margin: 0;
+        padding: 0;
+    }
+
+    .no-space-table {
+        border-collapse: collapse;
+    }
+
+    /* * {
+        margin: 0;
+        padding: 0;
+    } */
+    .centered-text {
+        text-align: center;
+    }
+
+    .tall-box {
+        height: 70px;
+    }
+
+    .centered-heading {
+        text-align: center;
+    }
+
+    .vertical-text {
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+    }
+
+    .cell1 {
+        background-color: rgb(18, 117, 117);
+    }
+
+    .cell2 {
+        background-color: rgb(189, 136, 255);
+    }
+
+    .cell3 {
+        background-color: rgb(51, 172, 51);
+    }
+
+    .cell4 {
+        background-color: rgb(215, 160, 41);
+    }
+
+    body {
+        background-color: rgb(200, 200, 200);
+        /* Light Gray */
+    }
+
+    div {
+        background-color: rgb(173, 216, 230);
+        /* Light Blue */
+    }
+
+    span {
+        background-color: rgb(255, 204, 204);
+        /* Light Pink */
+    }
+    .box{
+        list-style: none;
+        margin: 2px;
+        padding: 34px;
+        
+       
+    }
+    a{
+        text-decoration: none;
+        color: #174e4e;
+        font-weight: bold ;
+        
+    }
+    a:hover{
+        color: #3d2a44;
+    }
+</style>
+
+<body>
+    <a class="box" href="./index.html">Home Page</a>
+    <a class="box" href="./Images.html">Image page</a>
+    <a class="box" href="./contant.html">Contant page</a>
+
+    <h1 class="centered-heading">Saylani Mass IT Traning</h1>
+    <h2 class="centered-heading">Classes Schedule (Lab-1)</h2>
+    <table>
+        <tr>
+
+            <th class="cell2">Days/time</th>
+            <td class="tall-box" class="centered-text">8am/9am</td>
+            <td class="tall-box">9am/10am</td>
+            <td class="tall-box">10am/11am</td>
+            <td class="cell3 tall-box">11am/12am</td>
+            <td class="tall-box">12am/1pm</td>
+            <td class="tall-box">1pm/2pm</td>
+            <td class="cell2 tall-box">2pm/3pm</td>
+            <td class=" tall-box">3pm/4pm</td>
+            <td class="tall-box">4pm/5pm</td>
+            <td class="tall-box">5pm</td>
+            <td class="tall-box">6pm</td>
+            <td class="cell3 tall-box">6pm/7pm</td>
+            <td class="tall-box">8pm/9pm</td>
+            <td class="tall-box">9pm/10pm</td>
+            <td class="tall-box">10pm/11pm</td>
+
+        </tr>
+        <tr>
+
+            <td class="tall-box" class="centered-text">monday</td>
+            <td class="cell1 centered-text" colspan="3">9am to 11am wep and Appdevelopment</td>
+            <td class="centered-text" colspan="2">11am to 1 pm wepdevelopment</td>
+            <td class="centered-heading vertical-text" rowspan="7">
+                <h1>Namaz and lunch Break</h1>
+            </td>
+            <td class="centered-text" colspan="2">2pm to 4pm video Editing</td>
+            <td class="cell1 centered-text" colspan="3">4pm to 6pm Graphic Designing</td>
+            <td class="centered-text" colspan="2">6pm to 9pm AI and chatgpt</td>
+            <td class=" cell4 centered-text" colspan="2">9pm to 11pm wep and app</td>
+
+        </tr>
+        <tr>
+            <td class="cell2 tall-box" class="centered-text">Tuesday</td>
+            <td class="centered-text" colspan="3">9am to 11am Graphic designing</td>
+            <td class="cell3 centered-text" colspan="2">11am to 1 pm video Editing</td>
+
+            <td class="cell2 centered-text" colspan="2">2pm to 4pm wepdevelopment</td>
+            <td class="centered-text" colspan="3">4pm to 6pm wep and app</td>
+            <td class="cell3 centered-text" colspan="2">6pm to 9pm AI and chatgpt</td>
+            <td class="centered-text" colspan="2"></td>
+        </tr>
+        <tr>
+            <td class="tall-box" class="centered-text">Wednesday</td>
+            <td class="cell1 centered-text" colspan="3">9am to 11am wep and App</td>
+            <td class="centered-text" colspan="2">11am to 1 pm wepdevelopment</td>
+
+            <td class="centered-text" colspan="2"></td>
+            <td class="cell1 centered-text" colspan="3">4pm to 6pm video Eaditing</td>
+            <td class="centered-text" colspan="2">6pm to 9pm AI and chatgpt</td>
+            <td class="cell4 centered-text" colspan="2">9pm to 11pm Graphic Designing</td>
+        </tr>
+        <tr>
+            <td class="cell2 tall-box" class="centered-text">Thusday</td>
+            <td class="cell3 centered-text" colspan="5">free space</td>
+
+            <td class="cell2 centered-text" colspan="2">2pm to 4pm video Editing</td>
+            <td class="centered-text" colspan="3">4pm to 6pm Graphic Designing</td>
+            <td class="cell3 centered-text" colspan="2">6pm to 9pm AI and chatgpt</td>
+            <td class="centered-text" colspan="2"></td>
+        </tr>
+        <tr>
+            <td class="tall-box" class="centered-text">Friday</td>
+            <td class="cell1 centered-text" colspan="3">9am to 11am wep and Appdevelopment</td>
+            <td class="centered-text" colspan="2">11am to 1 pm wepdevelopment</td>
+
+            <td class="centered-text" colspan="2">2pm to 4pm SCO</td>
+            <td class="cell1 centered-text" colspan="3">4pm to 6pm Graphic Designing</td>
+            <td class="centered-text" colspan="2">6pm to 9pm AI and chatgpt</td>
+            <td class="cell4 centered-text" colspan="2">9pm to 11pm wep and app</td>
+        </tr>
+        <tr>
+
+            <td class="cell2 tall-box" class="centered-text">Saturday</td>
+            <td class="centered-text" colspan="3">9am to 11am Graphic Designing</td>
+            <td class=" cell3" colspan="2">11am to 1 pm wepdevelopment</td>
+
+            <td class="cell2" colspan="2"></td>
+            <td class="centered-text" colspan="3">4pm to 6pm Graphic Designing</td>
+            <td class="cell3 centered-text " colspan="2">6pm to 9pm AI and chatgpt</td>
+            <td colspan="2"></td>
+
+        </tr>
+        <tr>
+
+            <td class="tall-box" class="centered-text">Sunday</td>
+            <td></td>
+            <td class="cell1 centered-text" colspan="3">11am to 1 pm wepdevelopment</td>
+            <td></td>
+
+            <td class=" centered-text " colspan="3">4pm to 6pm video Editing</td>
+            <td class="cell1 centered-text" colspan="2"></td>
+            <td class=" centered-text" colspan="3">9pm to 11pm wep and app</td>
+            <td class="cell4"></td>
+
+        </tr>
+    </table>
+</body>
+
+</html>
